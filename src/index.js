@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ramenMenu.appendChild(newRamenImage);
 
     
-    // Add a click event listener to the new ramen image to display its details
+    
     newRamenImage.addEventListener('click', () => {
       ramenDetail.querySelector('.detail-image').src = newRamen.image;
       ramenDetail.querySelector('.name').textContent = newRamen.name;
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
       commentDisplay.textContent = newRamen.comment;
     });
 
-    // Reset the form fields
+    
     newRamenForm.reset();
   });
 
